@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+html, body {
+    width: 100%;
+}
+
+header {
+    width: 100%;
+    background-color: #0a3d62;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+}
+
+nav a:hover {
+    color: orange;
+    border-bottom: 2px solid orange;
+}
+
+.hero {
+    width: 100%;
+    background-color: #dff6ff;
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.features {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 5%;
+    background-color: #f2f2f2;
+}
+
+.feature-card {
+    background-color: white;
+    padding: 25px;
+    width: 32%;
+    text-align: center;
+}
+
+.pricing {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+    padding: 60px 20px;
+}
+
+.price-box {
+    border: 1px solid #ccc;
+    padding: 30px;
+    width: 280px;
+    text-align: center;
+}
+.price {
+    font-size: 26px;
+    color: #0a3d62;
+}
+
+.footer {
+    width: 100%;
+    background-color: #0a3d62;
+    color: white;
+    padding: 40px;
+    text-align: center;
+}
+.hero button {
+    padding: 16px 40px;
+    background-color: #ff7a00;
+    color: white;
+    border: none;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.hero button:hover {
+    background-color: #e06c00;
+}
